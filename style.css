@@ -195,9 +195,46 @@
     color: black;
 }
 
+.container4
+{
+    display: flex;
+    background-color: rgb(165, 167, 166);
+    justify-content: center;
+}
 
+.background
+{
+    display: flex;
+    background-color: rgb(56, 56, 56);
+    border-radius: 10px;
+    margin: 100px 400px 100px 400px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
 
+.help
+{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    font-size: xx-large;
+}
 
+.help2
+{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    font-size: large;
+}
 
-
-
+.button
+{
+    background-color: rgb(2, 2, 2);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    border-radius: 10px;
+    text-align: center;
+    font-size: large;
+    display: inline-block;
+}
