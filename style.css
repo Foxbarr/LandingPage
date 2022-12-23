@@ -29,11 +29,12 @@
 .container1
 {
     display: flex;
-    flex-flow: column wrap;
     background-color: rgb(167, 165, 165);
     color: white;
     text-shadow: 1px 1px black;
-    padding: 100px;
+    padding: 20px 300px 20px 300px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .text
@@ -60,7 +61,6 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    align-self: flex-start;
     border-radius: 10px;
 }
 
@@ -109,14 +109,20 @@
 {
     height: 400px;
     width: 400px;
-    display: flex;
+    
 }
 
-.imgalign
+.container-main
 {
-    align-self: flex-end;
-    justify-content: right;
+    display: block;
 }
+
+.container-img
+{
+    display: block;
+}
+
+
 
 
 
