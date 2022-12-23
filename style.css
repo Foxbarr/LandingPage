@@ -1,0 +1,67 @@
+.body
+{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(56, 56, 56);
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+.hero
+{
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 1px 1px black;
+    flex: 1;
+}
+
+.footer
+{
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 1px 1px black;
+    flex: 1;
+}
+
+.container1
+{
+    background-color: rgb(167, 165, 165);
+    display: flex;
+    flex-flow: column;
+    color: white;
+    text-shadow: 1px 1px black;
+    padding-left: 200px;
+}
+
+.text
+{
+    font-size: x-large;
+}
+
+.subtext
+{
+    font-size: large;
+    font-weight: 300;
+}
+
+.sign-up-button
+{
+    background-color: rgb(56, 56, 56);
+    text-shadow: 1px 1px black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    align-self: flex-start;
+    border-radius: 10px;
+}
