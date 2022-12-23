@@ -168,6 +168,32 @@
     padding: 10px 300px 10px 300px;
 }
 
+.container3
+{
+    display: flex;
+    background-color: rgb(207, 207, 207);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 250px 10px 250px;
+    
+}
+
+.quote
+{
+    color: rgb(73, 73, 73);
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    font-size: xx-large;
+}
+
+.author
+{
+    float: right;
+    font-size: 32px;
+    font-weight: bolder;
+    color: black;
+}
 
 
 
